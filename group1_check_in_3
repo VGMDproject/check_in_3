@@ -1,0 +1,111 @@
+Group 1
+Check-in 3
+
+
+User:
+•	Variables:
+o	private HashMap<String, String>() myPasswordMap   // Username, Password
+o	private nameMap<String, String>() : myNameMap  // Username, Name  
+o	private roleMap<String, String>() : myRoleMap  // Username, Role   
+o	private ArrayList myConferenceArrayList<Conference>() 
+o	private ArrayList myPaperArrayList<Paper>()  
+
+•	Method
+o	public void User() //constructor 
+o	public String login(String theUserName, String thePassword)  // returns role as string
+o	public String register(String theName, String theUserName, String thePassword, String theRole)
+o	public ArrayList makeConferenceArrayList()
+o	public ArrayList makePaperArrayList()
+
+
+Program Chair:
+•	Variables:
+o	private String myUser
+o	private int myUserID
+
+•	Methods:
+o	public void ProgramChar(int theUserID) //constructor 
+o	private void setStatusConference() 
+o	private void setSubprogramchair() 
+o	private void setStatusPaper() 
+o	private void viewPapers() 
+
+
+Subprogram Chair:
+•	Variables :
+o	private String myUser
+o	private int myUserID
+
+•	Method :
+o	public void SubProgramChair(int theUserID) //constructor 
+o	private void setReviewer() 
+o	private void submitRecommendation() 
+
+
+Reviewer:
+•	Variables :
+o	private String myUser
+o	private int myUserID
+
+•	Method :
+o	public void Reviewer(int theUserID) //constructor 
+o	private void submitReview()
+
+
+Author:
+•	Variables :
+o	private String myUser
+o	private int myUserID
+
+•	Method :
+o	public void Author(int theUserID) //constructor 
+o	private void submitPaper()
+o	private void setStatusPaper()
+o	private void editPaper() 
+
+
+Conference:
+•	Variables :
+o	private int myConferenceID
+o	private ArrayList<Integer>() myPaperList
+o	private String myName
+o	private int myStatus 
+o	private Date myDeadline
+
+•	Method :
+o	public void conference(int theConferenceID) //constructor 
+o	private void setConferenceID(int theConferenceID)
+o	private void setName(String theName)
+o	private void setStatusConference(int theStatus)
+o	private void setDeadline(Date theDeadline)
+o	private void submitConference() 
+
+
+Paper:
+•	Variables :
+o	private int myPaperID 
+o	private ProgramChair myProgramchair
+o	private SubprogramChair mySubprogramChair 
+o	private Reviewer myReviewer
+o	private Author myAuthor
+o	private String myName 
+o	private int myConferenceID
+o	private int myStatus 
+o	private String myReview 
+o	private String myRecommendation 
+o	private String myText  
+
+•	Method :
+o	public void paper(int setPaperID) //constructor 
+o	private void setPaperID(int thePaperID)
+o	private void setProgramchair(ProgramChair theProgramChair)
+o	private void setSubprogramChair(SubprogramChair theSubprogramChair)
+o	private void setReviewer(Reviewer theReviewer)
+o	private void setAuthor(Author theAuthor)
+o	private void setName(String theName) 
+o	private void setConference(int theConferenceID)
+o	private void setStatusPaper(int theStatus)
+o	private void submitReview(String theReview)
+o	private void submitRecommendation(String theRecommendation)
+o	private void editPaper(String theText)
+o	private void submitPaper()
