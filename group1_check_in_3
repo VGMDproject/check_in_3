@@ -10,7 +10,7 @@ o	private roleMap<String, String>() : myRoleMap  // Username, Role
 o	private ArrayList myConferenceArrayList<Conference>() 
 o	private ArrayList myPaperArrayList<Paper>()  
 
-•	Method
+•	Methods:
 o	public void User() //constructor 
 o	public String login(String theUserName, String thePassword)  // returns role as string
 o	public String register(String theName, String theUserName, String thePassword, String theRole)
@@ -32,32 +32,32 @@ o	private void viewPapers()
 
 
 Subprogram Chair:
-•	Variables :
+•	Variables:
 o	private String myUser
 o	private int myUserID
 
-•	Method :
+•	Methods:
 o	public void SubProgramChair(int theUserID) //constructor 
 o	private void setReviewer() 
 o	private void submitRecommendation() 
 
 
 Reviewer:
-•	Variables :
+•	Variables:
 o	private String myUser
 o	private int myUserID
 
-•	Method :
+•	Method:
 o	public void Reviewer(int theUserID) //constructor 
 o	private void submitReview()
 
 
 Author:
-•	Variables :
+•	Variables:
 o	private String myUser
 o	private int myUserID
 
-•	Method :
+•	Methods:
 o	public void Author(int theUserID) //constructor 
 o	private void submitPaper()
 o	private void setStatusPaper()
@@ -65,14 +65,14 @@ o	private void editPaper()
 
 
 Conference:
-•	Variables :
+•	Variables:
 o	private int myConferenceID
 o	private ArrayList<Integer>() myPaperList
 o	private String myName
 o	private int myStatus 
 o	private Date myDeadline
 
-•	Method :
+•	Methods:
 o	public void conference(int theConferenceID) //constructor 
 o	private void setConferenceID(int theConferenceID)
 o	private void setName(String theName)
@@ -82,7 +82,7 @@ o	private void submitConference()
 
 
 Paper:
-•	Variables :
+•	Variables:
 o	private int myPaperID 
 o	private ProgramChair myProgramchair
 o	private SubprogramChair mySubprogramChair 
@@ -95,7 +95,7 @@ o	private String myReview
 o	private String myRecommendation 
 o	private String myText  
 
-•	Method :
+•	Method:
 o	public void paper(int setPaperID) //constructor 
 o	private void setPaperID(int thePaperID)
 o	private void setProgramchair(ProgramChair theProgramChair)
