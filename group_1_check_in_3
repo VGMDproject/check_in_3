@@ -21,7 +21,7 @@ o	public ArrayList makePaperArrayList()
 Program Chair:
 •	Variables:
 o	private String myUser
-o	private int myUserID
+o	private int myUsername
 
 •	Methods:
 o	public void ProgramChar(int theUserID) //constructor 
@@ -34,7 +34,7 @@ o	private void viewPapers()
 Subprogram Chair:
 •	Variables :
 o	private String myUser
-o	private int myUserID
+o	private int myUsername
 
 •	Methods:
 o	public void SubProgramChair(int theUserID) //constructor 
@@ -45,7 +45,7 @@ o	private void submitRecommendation()
 Reviewer:
 •	Variables:
 o	private String myUser
-o	private int myUserID
+o	private int myUsername
 
 •	Methods:
 o	public void Reviewer(int theUserID) //constructor 
@@ -55,7 +55,7 @@ o	private void submitReview()
 Author:
 •	Variables:
 o	private String myUser
-o	private int myUserID
+o	private int myUsername
 
 •	Methods:
 o	public void Author(int theUserID) //constructor 
